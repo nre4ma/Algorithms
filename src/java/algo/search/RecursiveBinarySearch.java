@@ -7,7 +7,7 @@ package java.algo.search;
  * @author Noel
  *
  */
-public class BinarySearch {
+public class RecursiveBinarySearch {
 
 	public int binarySearch(int arr[], int low, int high, int searchTerm) {
 		if(high >= low) { // if the last index is 1 or greater 
@@ -31,7 +31,7 @@ public class BinarySearch {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		BinarySearch b = new BinarySearch();
+		RecursiveBinarySearch b = new RecursiveBinarySearch();
         int arr[] = {2,10,50,70,90,100};
         int n = arr.length;
         int x = 10;
