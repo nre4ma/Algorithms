@@ -1,5 +1,13 @@
 *.class
 
+# Eclipse created directories
+bin
+.settings
+
+# Eclipse files
+.classpath
+.project
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
@@ -39,6 +47,7 @@ hs_err_pid*
 Network Trash Folder
 Temporary Items
 .apdisk
+
 
 # Windows
 # =========================
