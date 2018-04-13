@@ -1,7 +1,7 @@
 /**
  * 
  */
-package java.algo.search;
+package com.javaalgo.search;
 
 /**
  * @author Noel
